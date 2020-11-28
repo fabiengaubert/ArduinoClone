@@ -1,6 +1,26 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# ArduinoClone_DS1337_custom
+#
+DEF ArduinoClone_DS1337_custom U 0 40 Y Y 1 F N
+F0 "U" -400 50 50 H V C CNN
+F1 "ArduinoClone_DS1337_custom" -400 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -400 -200 400 -950 0 1 0 f
+X X1 1 -500 -350 100 R 50 50 1 1 I
+X X2 2 -500 -500 100 R 50 50 1 1 I
+X INTA 3 -500 -650 100 R 50 50 1 1 I I
+X GND 4 0 -1050 100 U 50 50 1 1 w
+X SDA 5 500 -650 100 L 50 50 1 1 B
+X SCL 6 500 -500 100 L 50 50 1 1 I
+X INTB 7 500 -350 100 L 50 50 1 1 I I
+X Vcc 8 0 -100 100 D 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
 # Connector_Generic_Conn_01x04
 #
 DEF Connector_Generic_Conn_01x04 J 0 40 Y N 1 F N
@@ -147,6 +167,27 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Device_Crystal
+#
+DEF Device_Crystal Y 0 40 N N 1 F N
+F0 "Y" 0 150 50 H V C CNN
+F1 "Device_Crystal" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Crystal*
+$ENDFPLIST
+DRAW
+S -45 100 45 -100 0 1 12 N
+P 2 0 1 0 -100 0 -75 0 N
+P 2 0 1 20 -75 -50 -75 50 N
+P 2 0 1 20 75 -50 75 50 N
+P 2 0 1 0 100 0 75 0 N
+X 1 1 -150 0 50 R 50 50 1 1 P
+X 2 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Device_LED
 #
 DEF Device_LED D 0 40 N N 1 F N
@@ -264,6 +305,19 @@ X VCC 6 100 1600 150 D 50 50 1 1 W
 X PB6 7 -500 1100 150 R 50 50 1 1 B
 X PB7 8 -500 1000 150 R 50 50 1 1 B
 X PD5 9 -500 900 150 R 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# power_GND
+#
+DEF power_GND #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "power_GND" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
