@@ -16,170 +16,598 @@ $EndDescr
 $Comp
 L Device:Battery BT1
 U 1 1 5FC29141
-P 10365 3205
-F 0 "BT1" H 10473 3251 50  0000 L CNN
-F 1 "Battery 3V" H 10473 3160 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" V 10365 3265 50  0001 C CNN
-F 3 "~" V 10365 3265 50  0001 C CNN
-	1    10365 3205
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C1
-U 1 1 5FC29726
-P 6730 2535
-F 0 "C1" H 6845 2581 50  0000 L CNN
-F 1 "22pF" H 6845 2490 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6768 2385 50  0001 C CNN
-F 3 "~" H 6730 2535 50  0001 C CNN
-	1    6730 2535
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C2
-U 1 1 5FC299AA
-P 6725 2940
-F 0 "C2" H 6840 2986 50  0000 L CNN
-F 1 "22pF" H 6840 2895 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6763 2790 50  0001 C CNN
-F 3 "~" H 6725 2940 50  0001 C CNN
-	1    6725 2940
+P 10495 1820
+F 0 "BT1" H 10603 1866 50  0000 L CNN
+F 1 "Battery 3V" H 10603 1775 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" V 10495 1880 50  0001 C CNN
+F 3 "~" V 10495 1880 50  0001 C CNN
+	1    10495 1820
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:CP C3
 U 1 1 5FC2A1F5
-P 10390 3750
-F 0 "C3" H 10508 3796 50  0000 L CNN
-F 1 "10uF" H 10508 3705 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 10428 3600 50  0001 C CNN
-F 3 "~" H 10390 3750 50  0001 C CNN
-	1    10390 3750
+P 9960 1830
+F 0 "C3" H 10078 1876 50  0000 L CNN
+F 1 "10uF" H 10078 1785 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9998 1680 50  0001 C CNN
+F 3 "~" H 9960 1830 50  0001 C CNN
+	1    9960 1830
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:LED D1
 U 1 1 5FC2A967
-P 6955 4435
-F 0 "D1" H 6948 4652 50  0000 C CNN
-F 1 "LED" H 6948 4561 50  0000 C CNN
-F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6955 4435 50  0001 C CNN
-F 3 "~" H 6955 4435 50  0001 C CNN
-	1    6955 4435
+P 7510 3525
+F 0 "D1" H 7503 3742 50  0000 C CNN
+F 1 "LED" H 7503 3651 50  0000 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7510 3525 50  0001 C CNN
+F 3 "~" H 7510 3525 50  0001 C CNN
+	1    7510 3525
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R1
 U 1 1 5FC2AE6E
-P 6295 4425
-F 0 "R1" H 6365 4471 50  0000 L CNN
-F 1 "330Ohm" H 6365 4380 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6225 4425 50  0001 C CNN
-F 3 "~" H 6295 4425 50  0001 C CNN
-	1    6295 4425
+P 6945 3905
+F 0 "R1" H 7015 3951 50  0000 L CNN
+F 1 "330Ohm" H 7015 3860 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6875 3905 50  0001 C CNN
+F 3 "~" H 6945 3905 50  0001 C CNN
+	1    6945 3905
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R2
 U 1 1 5FC2B18E
-P 7650 4700
-F 0 "R2" H 7720 4746 50  0000 L CNN
-F 1 "10KOhm" H 7720 4655 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7580 4700 50  0001 C CNN
-F 3 "~" H 7650 4700 50  0001 C CNN
-	1    7650 4700
+P 7845 3825
+F 0 "R2" H 7575 3855 50  0000 L CNN
+F 1 "10KOhm" H 7480 3770 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7775 3825 50  0001 C CNN
+F 3 "~" H 7845 3825 50  0001 C CNN
+	1    7845 3825
 	1    0    0    -1  
 $EndComp
 $Comp
 L Memory_EEPROM:24LC1025 U2
 U 1 1 5FC2B9FB
-P 2995 3775
-F 0 "U2" H 2995 4256 50  0000 C CNN
-F 1 "24LC1025" H 2995 4165 50  0000 C CNN
-F 2 "Package_SO:SOIJ-8_5.3x5.3mm_P1.27mm" H 2995 3775 50  0001 C CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21941B.pdf" H 2995 3775 50  0001 C CNN
-	1    2995 3775
+P 1685 4630
+F 0 "U2" H 1360 5030 50  0000 C CNN
+F 1 "24LC1025" H 1380 4935 50  0000 C CNN
+F 2 "Package_SO:SOIJ-8_5.3x5.3mm_P1.27mm" H 1685 4630 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21941B.pdf" H 1685 4630 50  0001 C CNN
+	1    1685 4630
 	1    0    0    -1  
 $EndComp
 $Comp
 L dk_Embedded-Microcontrollers:ATMEGA328P-AU U4
 U 1 1 5FC2CA71
-P 8820 3425
-F 0 "U4" H 9148 3528 60  0000 L CNN
-F 1 "ATMEGA328P-AU" H 9148 3422 60  0000 L CNN
-F 2 "digikey-footprints:TQFP-32_7x7mm" H 9020 3625 60  0001 L CNN
-F 3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en608326" H 9020 3725 60  0001 L CNN
-F 4 "ATMEGA328P-AU-ND" H 9020 3825 60  0001 L CNN "Digi-Key_PN"
-F 5 "ATMEGA328P-AU" H 9020 3925 60  0001 L CNN "MPN"
-F 6 "Integrated Circuits (ICs)" H 9020 4025 60  0001 L CNN "Category"
-F 7 "Embedded - Microcontrollers" H 9020 4125 60  0001 L CNN "Family"
-F 8 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en608326" H 9020 4225 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/microchip-technology/ATMEGA328P-AU/ATMEGA328P-AU-ND/1832260" H 9020 4325 60  0001 L CNN "DK_Detail_Page"
-F 10 "IC MCU 8BIT 32KB FLASH 32TQFP" H 9020 4425 60  0001 L CNN "Description"
-F 11 "Microchip Technology" H 9020 4525 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 9020 4625 60  0001 L CNN "Status"
-	1    8820 3425
+P 8780 3025
+F 0 "U4" H 9108 3128 60  0000 L CNN
+F 1 "ATMEGA328P-AU" H 9108 3022 60  0000 L CNN
+F 2 "digikey-footprints:TQFP-32_7x7mm" H 8980 3225 60  0001 L CNN
+F 3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en608326" H 8980 3325 60  0001 L CNN
+F 4 "ATMEGA328P-AU-ND" H 8980 3425 60  0001 L CNN "Digi-Key_PN"
+F 5 "ATMEGA328P-AU" H 8980 3525 60  0001 L CNN "MPN"
+F 6 "Integrated Circuits (ICs)" H 8980 3625 60  0001 L CNN "Category"
+F 7 "Embedded - Microcontrollers" H 8980 3725 60  0001 L CNN "Family"
+F 8 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en608326" H 8980 3825 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/microchip-technology/ATMEGA328P-AU/ATMEGA328P-AU-ND/1832260" H 8980 3925 60  0001 L CNN "DK_Detail_Page"
+F 10 "IC MCU 8BIT 32KB FLASH 32TQFP" H 8980 4025 60  0001 L CNN "Description"
+F 11 "Microchip Technology" H 8980 4125 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 8980 4225 60  0001 L CNN "Status"
+	1    8780 3025
 	1    0    0    -1  
 $EndComp
-$Sheet
-S 5070 5275 1115 2080
-U 5FC2F143
-F0 "Connectors" 50
-F1 "Connectors.sch" 50
-$EndSheet
 $Comp
 L ArduinoClone:DS1337_custom U3
 U 1 1 5FC34461
-P 3075 1575
-F 0 "U3" H 3075 1656 50  0000 C CNN
-F 1 "DS1337_custom" H 3075 1565 50  0000 C CNN
-F 2 "Package_SO:SO-8_5.3x6.2mm_P1.27mm" H 3075 1575 50  0001 C CNN
-F 3 "" H 3075 1575 50  0001 C CNN
-	1    3075 1575
+P 2515 1520
+F 0 "U3" H 2825 1495 50  0000 C CNN
+F 1 "DS1337_custom" H 2890 1395 50  0000 C CNN
+F 2 "Package_SO:SO-8_5.3x6.2mm_P1.27mm" H 2515 1520 50  0001 C CNN
+F 3 "" H 2515 1520 50  0001 C CNN
+	1    2515 1520
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:Crystal Y1
 U 1 1 5FC35372
-P 2095 1930
-F 0 "Y1" H 2095 2198 50  0000 C CNN
-F 1 "32MHz" H 2095 2107 50  0000 C CNN
-F 2 "Crystal:Crystal_SMD_MicroCrystal_CC7V-T1A-2Pin_3.2x1.5mm_HandSoldering" H 2095 1930 50  0001 C CNN
-F 3 "~" H 2095 1930 50  0001 C CNN
-	1    2095 1930
-	1    0    0    -1  
+P 1595 1920
+F 0 "Y1" H 1595 2188 50  0000 C CNN
+F 1 "32MHz" H 1595 2097 50  0000 C CNN
+F 2 "Crystal:Crystal_SMD_MicroCrystal_CC7V-T1A-2Pin_3.2x1.5mm_HandSoldering" H 1595 1920 50  0001 C CNN
+F 3 "~" H 1595 1920 50  0001 C CNN
+	1    1595 1920
+	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:Crystal Y2
 U 1 1 5FC35EBB
-P 7405 2720
-F 0 "Y2" H 7405 2988 50  0000 C CNN
-F 1 "16MHz" H 7405 2897 50  0000 C CNN
-F 2 "Crystal:Crystal_SMD_5032-2Pin_5.0x3.2mm" H 7405 2720 50  0001 C CNN
-F 3 "~" H 7405 2720 50  0001 C CNN
-	1    7405 2720
-	1    0    0    -1  
+P 7450 1980
+F 0 "Y2" V 7425 2170 50  0000 C CNN
+F 1 "16MHz" V 7345 2185 50  0000 C CNN
+F 2 "Crystal:Crystal_SMD_5032-2Pin_5.0x3.2mm" H 7450 1980 50  0001 C CNN
+F 3 "~" H 7450 1980 50  0001 C CNN
+	1    7450 1980
+	0    1    1    0   
 $EndComp
 $Comp
 L Memory_EEPROM:24LC1025 U1
 U 1 1 5FC3C754
-P 2975 4765
-F 0 "U1" H 2975 5246 50  0000 C CNN
-F 1 "24LC1025" H 2975 5155 50  0000 C CNN
-F 2 "Package_SO:SOIJ-8_5.3x5.3mm_P1.27mm" H 2975 4765 50  0001 C CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21941B.pdf" H 2975 4765 50  0001 C CNN
-	1    2975 4765
+P 2870 4630
+F 0 "U1" H 3140 5035 50  0000 C CNN
+F 1 "24LC1025" H 3160 4915 50  0000 C CNN
+F 2 "Package_SO:SOIJ-8_5.3x5.3mm_P1.27mm" H 2870 4630 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21941B.pdf" H 2870 4630 50  0001 C CNN
+	1    2870 4630
 	1    0    0    -1  
+$EndComp
+Text Label 4470 5845 2    50   ~ 0
+MISO
+Wire Wire Line
+	4575 5845 4470 5845
+Text Label 8280 2825 2    50   ~ 0
+MISO
+Text Label 4465 6050 2    50   ~ 0
+MOSI
+Text Label 4465 6260 2    50   ~ 0
+SCK
+Text Label 4465 6465 2    50   ~ 0
+RESET
+Text Label 4465 6675 2    50   ~ 0
+Vcc
+Text Label 4465 6890 2    50   ~ 0
+GND
+Wire Wire Line
+	4465 6050 4575 6050
+Wire Wire Line
+	4465 6260 4575 6260
+Wire Wire Line
+	4465 6465 4575 6465
+Wire Wire Line
+	4465 6675 4575 6675
+Wire Wire Line
+	4465 6890 4505 6890
+$Comp
+L power:GNDPWR #PWR0101
+U 1 1 5FC4DB2D
+P 4505 7090
+F 0 "#PWR0101" H 4505 6890 50  0001 C CNN
+F 1 "GNDPWR" H 4415 6960 50  0000 C CNN
+F 2 "" H 4505 7040 50  0001 C CNN
+F 3 "" H 4505 7040 50  0001 C CNN
+	1    4505 7090
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4505 7090 4505 6890
+Connection ~ 4505 6890
+Wire Wire Line
+	4505 6890 4575 6890
+Text Label 8280 2725 2    50   ~ 0
+MOSI
+Text Label 8280 3525 2    50   ~ 0
+SCK
+Text Label 8280 3625 2    50   ~ 0
+RESET
+Text Label 8880 1265 1    50   ~ 0
+Vcc
+Wire Wire Line
+	8780 1425 8780 1335
+Wire Wire Line
+	8980 1335 8980 1425
+Wire Wire Line
+	8880 1425 8880 1335
+Wire Wire Line
+	8780 1335 8880 1335
+Wire Wire Line
+	8880 1335 8980 1335
+Connection ~ 8880 1335
+Wire Wire Line
+	8880 1265 8880 1335
+$Sheet
+S 4575 5330 1115 2080
+U 5FC2F143
+F0 "Connectors" 50
+F1 "Connectors.sch" 50
+F2 "MISO" O L 4575 5845 50 
+F3 "SCK" B L 4575 6260 50 
+F4 "Vcc" I L 4575 6675 50 
+F5 "MOSI" I L 4575 6050 50 
+F6 "GND" I L 4575 6890 50 
+F7 "RESET" O L 4575 6465 50 
+F8 "RX" I L 4575 5425 50 
+F9 "TX" O L 4575 5610 50 
+F10 "SDA" B R 5690 5600 50 
+F11 "D2" B R 5690 6100 50 
+F12 "D3" B R 5690 6260 50 
+F13 "D4" B R 5690 6420 50 
+F14 "D5" B R 5690 6575 50 
+F15 "D6" B R 5690 6725 50 
+F16 "D7" B R 5690 6890 50 
+F17 "D8" B R 5690 7055 50 
+$EndSheet
+Text Label 4470 5610 2    50   ~ 0
+TX
+Text Label 4470 5425 2    50   ~ 0
+RX
+Wire Wire Line
+	4470 5425 4575 5425
+Wire Wire Line
+	4470 5610 4575 5610
+Text Label 5855 5600 0    50   ~ 0
+SDA
+Text Label 5855 6100 0    50   ~ 0
+D2
+Text Label 5855 6260 0    50   ~ 0
+D3
+Text Label 5855 6420 0    50   ~ 0
+D4
+Text Label 5855 6575 0    50   ~ 0
+D5
+Text Label 5855 6725 0    50   ~ 0
+D6
+Text Label 5855 6890 0    50   ~ 0
+D7
+Text Label 5855 7055 0    50   ~ 0
+D8
+Wire Wire Line
+	5690 6100 5855 6100
+Wire Wire Line
+	5690 6260 5855 6260
+Wire Wire Line
+	5690 6420 5855 6420
+Wire Wire Line
+	5690 6575 5855 6575
+Wire Wire Line
+	5690 6725 5855 6725
+Wire Wire Line
+	5690 6890 5855 6890
+Wire Wire Line
+	5690 7055 5855 7055
+Wire Wire Line
+	5690 5600 5855 5600
+Text Label 8280 3425 2    50   ~ 0
+SDA
+Text Label 8280 3725 2    50   ~ 0
+RX
+Text Label 8280 3825 2    50   ~ 0
+TX
+Text Label 8280 3925 2    50   ~ 0
+D2
+Text Label 8280 1725 2    50   ~ 0
+D3
+Text Label 8280 1825 2    50   ~ 0
+D4
+Text Label 8280 2225 2    50   ~ 0
+D6
+Text Label 8280 2325 2    50   ~ 0
+D7
+Text Label 8280 2425 2    50   ~ 0
+D8
+Text Label 8280 2125 2    50   ~ 0
+D5
+Text Label 8690 4730 2    50   ~ 0
+GND
+Wire Wire Line
+	8780 4600 8880 4600
+Wire Wire Line
+	8880 4525 8880 4600
+Wire Wire Line
+	8690 4730 8880 4730
+Wire Wire Line
+	1595 1770 1910 1770
+Wire Wire Line
+	1910 1770 1910 1870
+Wire Wire Line
+	1910 1870 2015 1870
+Wire Wire Line
+	1595 2070 1595 2095
+Wire Wire Line
+	1595 2095 1910 2095
+Wire Wire Line
+	1910 2095 1910 2020
+Wire Wire Line
+	1910 2020 2015 2020
+Text Label 2515 1620 1    50   ~ 0
+Vcc
+Text Label 2015 2170 2    50   ~ 0
+Vcc
+NoConn ~ 3015 1870
+Text Label 3015 2170 0    50   ~ 0
+SDA
+Text Label 3015 2020 0    50   ~ 0
+SCK
+$Comp
+L power:GNDPWR #PWR0102
+U 1 1 5FC48CD7
+P 2515 2570
+F 0 "#PWR0102" H 2515 2370 50  0001 C CNN
+F 1 "GNDPWR" H 2519 2416 50  0000 C CNN
+F 2 "" H 2515 2520 50  0001 C CNN
+F 3 "" H 2515 2520 50  0001 C CNN
+	1    2515 2570
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1685 4930 1685 5030
+Wire Wire Line
+	1685 5030 2085 5030
+Wire Wire Line
+	2870 5030 2870 4930
+Wire Wire Line
+	2870 4330 2870 4160
+Wire Wire Line
+	2870 4160 1685 4160
+Wire Wire Line
+	1685 4160 1685 4330
+$Comp
+L power:GNDPWR #PWR0103
+U 1 1 5FC5249B
+P 2275 5135
+F 0 "#PWR0103" H 2275 4935 50  0001 C CNN
+F 1 "GNDPWR" H 2279 4981 50  0000 C CNN
+F 2 "" H 2275 5085 50  0001 C CNN
+F 3 "" H 2275 5085 50  0001 C CNN
+	1    2275 5135
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2275 5135 2275 5030
+Connection ~ 2275 5030
+Wire Wire Line
+	2275 5030 2870 5030
+Text Label 2265 4160 1    50   ~ 0
+Vcc
+Text Label 1285 4730 2    50   ~ 0
+Vcc
+Text Label 2470 4730 2    50   ~ 0
+Vcc
+Wire Wire Line
+	2085 4730 2085 5030
+Connection ~ 2085 5030
+Wire Wire Line
+	2085 5030 2275 5030
+Wire Wire Line
+	3270 4730 3335 4730
+Wire Wire Line
+	3335 4730 3335 5030
+Wire Wire Line
+	3335 5030 2870 5030
+Connection ~ 2870 5030
+Text Label 2085 4530 0    50   ~ 0
+SDA
+Text Label 3270 4530 0    50   ~ 0
+SDA
+Text Label 2085 4630 0    50   ~ 0
+SCK
+Text Label 3270 4630 0    50   ~ 0
+SCK
+Text Label 8280 3025 2    50   ~ 0
+ADDS1
+Text Label 8280 3125 2    50   ~ 0
+ADDS2
+Text Label 1285 4530 2    39   ~ 0
+ADDS1
+Text Label 1285 4630 2    39   ~ 0
+ADDS2
+Text Label 2470 4530 2    39   ~ 0
+ADDS1
+Text Label 2470 4630 2    39   ~ 0
+ADDS2
+$Comp
+L power:GNDPWR #PWR0104
+U 1 1 5FC56C57
+P 10240 2150
+F 0 "#PWR0104" H 10240 1950 50  0001 C CNN
+F 1 "GNDPWR" H 10244 1996 50  0000 C CNN
+F 2 "" H 10240 2100 50  0001 C CNN
+F 3 "" H 10240 2100 50  0001 C CNN
+	1    10240 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9960 1980 9960 2060
+Wire Wire Line
+	10495 2060 10495 2020
+Wire Wire Line
+	10240 2150 10240 2060
+Wire Wire Line
+	9960 2060 10240 2060
+Connection ~ 10240 2060
+Wire Wire Line
+	10240 2060 10495 2060
+Wire Wire Line
+	9960 1585 10240 1585
+Wire Wire Line
+	10495 1585 10495 1620
+Wire Wire Line
+	8880 1265 9600 1265
+Wire Wire Line
+	10240 1265 10240 1585
+Connection ~ 10240 1585
+Wire Wire Line
+	10240 1585 10495 1585
+$Comp
+L Device:C C2
+U 1 1 5FC299AA
+P 6925 2210
+F 0 "C2" V 7010 2330 50  0000 L CNN
+F 1 "22pF" V 7080 2285 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6963 2060 50  0001 C CNN
+F 3 "~" H 6925 2210 50  0001 C CNN
+	1    6925 2210
+	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR01
-U 1 1 5FC3EF92
-P 10395 4040
-F 0 "#PWR01" H 10395 3790 50  0001 C CNN
-F 1 "GND" H 10400 3867 50  0000 C CNN
-F 2 "" H 10395 4040 50  0001 C CNN
-F 3 "" H 10395 4040 50  0001 C CNN
-	1    10395 4040
+L Device:C C1
+U 1 1 5FC29726
+P 6925 1740
+F 0 "C1" V 7000 1575 50  0000 L CNN
+F 1 "22pF" V 7075 1550 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6963 1590 50  0001 C CNN
+F 3 "~" H 6925 1740 50  0001 C CNN
+	1    6925 1740
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7450 1830 7450 1740
+Wire Wire Line
+	7450 1740 7980 1740
+Wire Wire Line
+	7980 1740 7980 1925
+Wire Wire Line
+	7980 1925 8280 1925
+Wire Wire Line
+	7450 2130 7450 2210
+Wire Wire Line
+	7450 2210 7980 2210
+Wire Wire Line
+	7980 2210 7980 2025
+Wire Wire Line
+	7980 2025 8280 2025
+Wire Wire Line
+	7075 1740 7450 1740
+Connection ~ 7450 1740
+Wire Wire Line
+	7075 2210 7450 2210
+Connection ~ 7450 2210
+Wire Wire Line
+	6775 1740 6595 1740
+Wire Wire Line
+	6595 1740 6595 2210
+Wire Wire Line
+	6595 2210 6775 2210
+$Comp
+L power:GNDPWR #PWR0105
+U 1 1 5FC7A20D
+P 6595 2290
+F 0 "#PWR0105" H 6595 2090 50  0001 C CNN
+F 1 "GNDPWR" H 6599 2136 50  0000 C CNN
+F 2 "" H 6595 2240 50  0001 C CNN
+F 3 "" H 6595 2240 50  0001 C CNN
+	1    6595 2290
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	6595 2290 6595 2210
+Connection ~ 6595 2210
+Wire Wire Line
+	7660 3525 8280 3525
+Wire Wire Line
+	7360 3525 6945 3525
+Wire Wire Line
+	6945 3525 6945 3755
+$Comp
+L power:GNDPWR #PWR0106
+U 1 1 5FC83110
+P 6945 4105
+F 0 "#PWR0106" H 6945 3905 50  0001 C CNN
+F 1 "GNDPWR" H 6949 3951 50  0000 C CNN
+F 2 "" H 6945 4055 50  0001 C CNN
+F 3 "" H 6945 4055 50  0001 C CNN
+	1    6945 4105
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6945 4105 6945 4055
+Wire Wire Line
+	7845 3680 7845 3675
+Wire Wire Line
+	7845 3625 8280 3625
+Connection ~ 7845 3675
+Wire Wire Line
+	7845 3675 7845 3625
+Text Label 7845 4025 3    50   ~ 0
+Vcc
+Wire Wire Line
+	7845 4025 7845 3975
+$Comp
+L power:GNDPWR #PWR0107
+U 1 1 5FC8AAB3
+P 8880 4805
+F 0 "#PWR0107" H 8880 4605 50  0001 C CNN
+F 1 "GNDPWR" H 8884 4651 50  0000 C CNN
+F 2 "" H 8880 4755 50  0001 C CNN
+F 3 "" H 8880 4755 50  0001 C CNN
+	1    8880 4805
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8880 4730 8880 4805
+Connection ~ 8880 4730
+NoConn ~ 8280 2525
+NoConn ~ 8280 2625
+NoConn ~ 8280 2925
+NoConn ~ 8280 3225
+NoConn ~ 8280 3325
+NoConn ~ 8280 4025
+NoConn ~ 8280 4125
+NoConn ~ 8280 4225
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5FCA4DC6
+P 9600 1265
+F 0 "#FLG0101" H 9600 1340 50  0001 C CNN
+F 1 "PWR_FLAG" H 9600 1438 50  0000 C CNN
+F 2 "" H 9600 1265 50  0001 C CNN
+F 3 "~" H 9600 1265 50  0001 C CNN
+	1    9600 1265
+	1    0    0    -1  
+$EndComp
+Connection ~ 9600 1265
+Wire Wire Line
+	9600 1265 10240 1265
+Wire Wire Line
+	9960 1585 9960 1680
+Wire Wire Line
+	8780 4525 8780 4600
+Wire Wire Line
+	8880 4600 8880 4730
+Connection ~ 8880 4600
+Wire Wire Line
+	8980 4525 8980 4600
+Wire Wire Line
+	8980 4600 8880 4600
+Wire Notes Line
+	1105 1160 3400 1160
+Wire Notes Line
+	3400 1160 3400 2960
+Wire Notes Line
+	3400 2960 1105 2960
+Wire Notes Line
+	1105 2960 1105 1160
+Text Notes 1170 1160 0    50   ~ 0
+N1 - Clock/Calendar
+Wire Notes Line
+	1035 3960 3535 3960
+Wire Notes Line
+	3535 3960 3535 5450
+Wire Notes Line
+	3535 5450 1035 5450
+Wire Notes Line
+	1035 5450 1035 3960
+Text Notes 1160 3955 0    50   ~ 0
+N2 - EEPROM
+Wire Notes Line
+	6415 985  11050 985 
+Wire Notes Line
+	11050 985  11050 5060
+Wire Notes Line
+	11050 5060 6415 5060
+Wire Notes Line
+	6415 5060 6415 985 
+Text Notes 6565 985  0    50   ~ 0
+N3 - ATMega328P-AU
+Wire Notes Line
+	4120 5100 6080 5100
+Wire Notes Line
+	6080 5100 6080 7570
+Wire Notes Line
+	6080 7570 4120 7570
+Wire Notes Line
+	4120 7570 4120 5100
+Text Notes 4165 5095 0    50   ~ 0
+N4 - Connectors
 $EndSCHEMATC

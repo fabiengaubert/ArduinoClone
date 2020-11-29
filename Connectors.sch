@@ -16,12 +16,12 @@ $EndDescr
 $Comp
 L Connector_Generic:Conn_02x03_Odd_Even J4
 U 1 1 5FC2F982
-P 5010 2560
-F 0 "J4" H 5060 2877 50  0000 C CNN
-F 1 "ICSP" H 5060 2786 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x03_P2.54mm_Vertical" H 5010 2560 50  0001 C CNN
-F 3 "~" H 5010 2560 50  0001 C CNN
-	1    5010 2560
+P 5020 2400
+F 0 "J4" H 5070 2717 50  0000 C CNN
+F 1 "ICSP" H 5070 2626 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x03_P2.54mm_Vertical" H 5020 2400 50  0001 C CNN
+F 3 "~" H 5020 2400 50  0001 C CNN
+	1    5020 2400
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -49,12 +49,66 @@ $EndComp
 $Comp
 L Connector_Generic:Conn_01x04 J3
 U 1 1 5FC3248B
-P 4770 3660
-F 0 "J3" H 4850 3652 50  0000 L CNN
-F 1 "I2C" H 4850 3561 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 4770 3660 50  0001 C CNN
-F 3 "~" H 4770 3660 50  0001 C CNN
-	1    4770 3660
+P 5070 3580
+F 0 "J3" H 5150 3572 50  0000 L CNN
+F 1 "I2C" H 5150 3481 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 5070 3580 50  0001 C CNN
+F 3 "~" H 5070 3580 50  0001 C CNN
+	1    5070 3580
 	1    0    0    -1  
 $EndComp
+Text HLabel 4820 2300 0    50   Output ~ 0
+MISO
+Text HLabel 4820 2400 0    50   BiDi ~ 0
+SCK
+Text HLabel 5320 2300 2    50   Input ~ 0
+Vcc
+Text HLabel 5320 2400 2    50   Input ~ 0
+MOSI
+Text HLabel 5320 2500 2    50   Input ~ 0
+GND
+Text HLabel 4820 2500 0    50   Output ~ 0
+RESET
+Text HLabel 3470 3475 0    50   Input ~ 0
+GND
+Text HLabel 3470 3575 0    50   Input ~ 0
+Vcc
+Text HLabel 3470 3675 0    50   Input ~ 0
+RX
+Text HLabel 3470 3775 0    50   Output ~ 0
+TX
+Text HLabel 4870 3480 0    50   Input ~ 0
+GND
+Text HLabel 4870 3580 0    50   Input ~ 0
+Vcc
+Text HLabel 4870 3680 0    50   BiDi ~ 0
+SDA
+Text HLabel 4870 3780 0    50   BiDi ~ 0
+SCK
+Text HLabel 3430 2045 0    50   BiDi ~ 0
+D2
+Text HLabel 3430 2145 0    50   BiDi ~ 0
+D3
+Text HLabel 3430 2245 0    50   BiDi ~ 0
+D4
+Text HLabel 3430 2345 0    50   BiDi ~ 0
+D5
+Text HLabel 3430 2445 0    50   BiDi ~ 0
+D6
+Text HLabel 3430 2545 0    50   BiDi ~ 0
+D7
+Text HLabel 3430 2645 0    50   BiDi ~ 0
+D8
+Text HLabel 3430 2745 0    50   Input ~ 0
+GND
+Text HLabel 3430 2845 0    50   Input ~ 0
+Vcc
+Text Notes 4840 1975 0    50   ~ 0
+SPI Connector
+Text Notes 4840 3350 0    50   ~ 0
+I2C Connector
+Text Notes 3435 3355 0    50   ~ 0
+Serial Connector
+Text Notes 3285 1915 0    50   ~ 0
+GPIO Connector
 $EndSCHEMATC
